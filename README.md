@@ -8,7 +8,7 @@ The analysis focuses on comparing power generation and pricing trends in GB and 
 
 ## DATA SOURCE
 Excel spreadsheets shared via Dropbox by two analysts (Aaron for GB, Brian for DE)
-- **Each spreadsheet includes**:
+**Each spreadsheet includes**:
 - Forecasts from Q3 2022 and Q1 2023
 - Variables: Generation Capacity (MW), Power Generation (GWh), Wholesale Price (€/MWh), Capture Price (€/MWh)
 - Forecast horizon: 2022–2050
