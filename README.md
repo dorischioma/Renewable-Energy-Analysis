@@ -1,30 +1,35 @@
-# Renewable-Energy-Analysis
+# Power Market Forecast Analysis for Strategic Planning (GE & DE, 2023-2050)
 
 ## INTRODUCTION
-For decades, global energy demand was met primarily by fossil fuels (coal, oil, and natural gas). While these sources powered industries and economies, they also contributed significantly to greenhouse gas emissions, air pollution, and environmental degradation.
-As the impact of climate change became more evident, the need for cleaner, more sustainable energy alternatives grew urgent. This gave rise to renewable energy, energy derived from natural processes that are constantly replenished, such as sunlight, wind, water, and geothermal heat.
-Renewable energy is not just an alternative; it is a transformative solution at the heart of the global transition toward sustainability. 
-The key insights, methodology for the analysis and recommendations resulting from analyzing the renewable energy dataset for Great Britain and Germany are covered in the sections that follow. 
+This Project Supports Laura, a strategic planning director at a European renewable energy firm, in analyzing power market forecasts for Great Britain (GB) and Germany (DE). With her analysts temporarily unavailable, Laura needs to independently interpret forecast data, identify trends and differences, and make informed planning decisions using a dynamic Power Bi dashboard.
 
 ## OVERVIEW
-In this project, we set out to answer key questions about the energy markets in Germany (DE) and Great Britain (GB). Our main focus was on comparing wholesale electricity prices, understanding trends in forecasted capture prices for solar and wind technologies, and exploring how power generation influences pricing.
+The analysis focuses on comparing power generation and pricing trends in GB and DE for the 2023–2050 period. Specifically, it evaluates wholesale prices, capture prices, and generation forecasts for solar PV and onshore wind technologies. Additionally, the project aims to build a sustainable solution that allows automated data updates and user-driven insights through a self-service Power BI dashboard.
 
-## DATA SOURCE:
-The dataset for this analysis is here
+## DATA SOURCE
+Excel spreadsheets shared via Dropbox by two analysts (Aaron for GB, Brian for DE)
+- **Each spreadsheet includes**:
+- Forecasts from Q3 2022 and Q1 2023
+- Variables: Generation Capacity (MW), Power Generation (GWh), Wholesale Price (€/MWh), Capture Price (€/MWh)
+- Forecast horizon: 2022–2050
+- Technologies: Solar PV, Onshore Wind
+
+
 
 ## TOOLS USED:
-- Microsoft Excel (data cleaning)
-- Power BI (visualization & analysis)
+- Microsoft Excel: Initial data inspection, cleaning, and structuring
+-	Power Query (in Excel): Data transformation and ETL
+- Power BI – Interactive dashboard design and visual analysis
 
 ## DATA CLEANING:
-To prepare the data, we used Power Query in Excel to:
-- Structure the table.
-- Transpose the columns
-- Rename columns for clarity
-- Change data types (prices, GWh)
-We also created lookup tables (like geography and Technology) in excel to connect tables.
+To prepare the data, I:
+- Consolidated multiple Excel files: I had multiple Excel files from two people (Aaron and Brian), each with data for different countries and quarters. I combined them into one table so everything was in one place and easier to work with.
+- Unpivoted the table layout: The original Excel files had years (2022–2060) as column headers, which makes it hard to analyze. I changed the format so each row shows one value for one year.
+- Adding Extra Columns: We created new columns to describe each row better — like which country it belongs to, the type of technology (solar or wind), and whether it came from the Q3 2022 or Q1 2023 file. These labels help us compare and analyze the data easily. 
+- Applying Currency and Inflation Adjustments:
+Since i was comparing prices across countries and years, i used the provided exchange rates (GBP to EUR) and inflation rates to adjust prices. This helped me make fair comparisons, especially between different time periods.
 
-## KEY QUESTIONS & FINDINGS
+## KEY BUSINESS QUESTIONS & FINDINGS
 1.	How do wholesale power prices (baseload) compare between GB and DE and whether their respective power generation mix could explain the difference?
 
 Between 2023-2050, Baseload prices in Great Britain are consistently lower compared to Germany, and their power generation mix differs significantly. 
