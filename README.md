@@ -13,15 +13,15 @@ In this project, we set out to answer key questions about the energy markets in 
 The dataset for this analysis is here
 
 ## TOOLS USED:
-•	Microsoft Excel (data cleaning)
-•	Power BI (visualization & analysis)
+- Microsoft Excel (data cleaning)
+- Power BI (visualization & analysis)
 
 ## DATA CLEANING:
 To prepare the data, we used Power Query in Excel to:
-•	Structure the table.
-•	Transpose the columns
-•	Rename columns for clarity
-•	Change data types (prices, GWh)
+- Structure the table.
+- Transpose the columns
+- Rename columns for clarity
+- Change data types (prices, GWh)
 We also created lookup tables (like geography and Technology) in excel to connect tables.
 
 ## KEY QUESTIONS & FINDINGS
