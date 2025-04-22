@@ -29,15 +29,17 @@ I took the follwing steps to prepare the data:
 - **Applying Currency and Inflation Adjustments**:
 Since i was comparing prices across countries and years, i used the provided exchange rates (GBP to EUR) and inflation rates to adjust prices. This helped me make fair comparisons, especially between different time periods.
 
-## KEY BUSINESS QUESTIONS & FINDINGS
+## KEY BUSINESS QUESTIONS & INSIGHTS
 1.	How do wholesale power prices (baseload) compare between GB and DE and whether their respective power generation mix could explain the difference?
+### Insights
+  Between 2023-2050, Baseload prices in Great Britain are consistently lower compared to Germany, and their power generation mix differs significantly. 
 
-Between 2023-2050, Baseload prices in Great Britain are consistently lower compared to Germany, and their power generation mix differs significantly. 
 
-
-Germany’s higher Baseload price is attributed to her heavy reliance on Onshore Wind and Solar PV, which are intermittent energy sources, when wind and solar production are low, Germany may need to rely more on expensive backup sources like gas, thereby driving baseload prices higher compared to GB.
+  Germany’s higher Baseload price is attributed to her heavy reliance on Onshore Wind and Solar PV, which are intermittent energy sources, when wind and solar production are low, Germany 
+  may need to rely more on expensive backup sources like gas, thereby driving baseload prices higher compared to GB.
  
- While Great Britain leans more on Offshore Wind and Nuclear, both of which provide more stable output. Nuclear provides steady baseload, and offshore is generally stronger and more consistent than onshore wind. This stability helps keep GB’s baseload prices lower.
+  While Great Britain leans more on Offshore Wind and Nuclear, both of which provide more stable output. Nuclear provides steady baseload, and offshore is generally stronger and more 
+  consistent than onshore wind. This stability helps keep GB’s baseload prices lower.
  
 
 
