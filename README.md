@@ -4,20 +4,13 @@
 For decades, global energy demand was met primarily by fossil fuels (coal, oil, and natural gas). While these sources powered industries and economies, they also contributed significantly to greenhouse gas emissions, air pollution, and environmental degradation.
 As the impact of climate change became more evident, the need for cleaner, more sustainable energy alternatives grew urgent. This gave rise to renewable energy, energy derived from natural processes that are constantly replenished, such as sunlight, wind, water, and geothermal heat.
 Renewable energy is not just an alternative; it is a transformative solution at the heart of the global transition toward sustainability. 
-The key conclusions, methodology for the analysis and recommendations resulting from analyzing the renewable energy dataset for Great Britain and Germany are covered in the sections that follow. 
+The key insights, methodology for the analysis and recommendations resulting from analyzing the renewable energy dataset for Great Britain and Germany are covered in the sections that follow. 
 
 ## OVERVIEW
 In this project, we set out to answer key questions about the energy markets in Germany (DE) and Great Britain (GB). Our main focus was on comparing wholesale electricity prices, understanding trends in forecasted capture prices for solar and wind technologies, and exploring how power generation influences pricing.
 
 ## DATA SOURCE:
-[File: Energy market analysis_Clean file]
-•	Wholesale Price
-•	Capture Price
-•	Generation Mix
-•	Processed Summary
-•	Technology Table
-•	Geography Table
-
+The dataset for this analysis is here
 
 ## TOOLS USED:
 •	Microsoft Excel (data cleaning)
@@ -29,7 +22,7 @@ To prepare the data, we used Power Query in Excel to:
 •	Transpose the columns
 •	Rename columns for clarity
 •	Change data types (prices, GWh)
-We also created lookup tables in excel to merge datasets by common fields like geography and Technology.
+We also created lookup tables (like geography and Technology) in excel to connect tables.
 
 ## KEY QUESTIONS & FINDINGS
 1.	How do wholesale power prices (baseload) compare between GB and DE and whether their respective power generation mix could explain the difference?
