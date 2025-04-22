@@ -22,7 +22,7 @@ Excel spreadsheets shared via Dropbox by two analysts (Aaron for GB, Brian for D
 - Power BI – Interactive dashboard design and visual analysis
 
 ## DATA CLEANING:
-To prepare the data, I:
+I took the follwing steps to prepare the data:
 - **Consolidated multiple Excel files**: I had multiple Excel files from two people (Aaron and Brian), each with data for different countries and quarters. I combined them into one table so everything was in one place and easier to work with.
 - **Unpivoted the table layout**: The original Excel files had years (2022–2060) as column headers, which makes it hard to analyze. I changed the format so each row shows one value for one year.
 - **Adding Extra Columns**: We created new columns to describe each row better — like which country it belongs to, the type of technology (solar or wind), and whether it came from the Q3 2022 or Q1 2023 file. These labels help us compare and analyze the data easily. 
