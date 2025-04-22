@@ -61,7 +61,9 @@ Aaron changed his forecast for solar PV and onshore wind capture prices between 
  
 This change was driven by the economic attractiveness of PV, advancement in supply chains and supportive policies.
 
-CONCLUSION
+## DASHBOARD
+
+## CONCLUSION
 1.	Wholesale Price and Generation Mix Discrepancy:
 The baseload price comparison reveals that Germany often reports higher wholesale prices than Great Britain. This could be partially explained by Germany's heavier reliance on renewables, supported by a more diversified generation mix, including strong solar and wind penetration.
 2.	Technology Comparison Insight:
