@@ -7,7 +7,7 @@ This Project Supports Laura, a strategic planning director at a European renewab
 The analysis focuses on comparing power generation and pricing trends in GB and DE for the 2023–2050 period. Specifically, it evaluates wholesale prices, capture prices, and generation forecasts for solar PV and onshore wind technologies. Additionally, the project aims to build a sustainable solution that allows automated data updates and user-driven insights through a self-service Power BI dashboard.
 
 ## DATA SOURCE
-Excel spreadsheets shared via Dropbox by two analysts (Aaron for GB, Brian for DE)
+Excel spreadsheets shared via Dropbox by two analysts (Aaron for GB, Brian for DE)  
 **Each spreadsheet includes**:
 - Forecasts from Q3 2022 and Q1 2023
 - Variables: Generation Capacity (MW), Power Generation (GWh), Wholesale Price (€/MWh), Capture Price (€/MWh)
