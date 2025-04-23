@@ -28,7 +28,6 @@ I took the follwing steps to prepare the data:
 - **Adding Extra Columns**: We created new columns to describe each row better — like which country it belongs to, the type of technology (solar or wind), and whether it came from the Q3 2022 or Q1 2023 file. These labels help us compare and analyze the data easily. 
 - **Applying Currency and Inflation Adjustments**:
 Since i was comparing prices across countries and years, i used the provided exchange rates (GBP to EUR) and inflation rates to adjust prices. This helped me make fair comparisons, especially between different time periods.
-**The cleaned Excel file is [here](https://github.com/dorischioma/Renewable-Energy-Analysis/blob/main/Energy%20market%20analysis_Cleaned%20file.xlsx/)**
 
 ## KEY BUSINESS QUESTIONS & INSIGHTS
 ### 1.	How do wholesale power prices (baseload) compare between GB and DE and whether their respective power generation mix could explain the difference?
