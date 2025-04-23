@@ -44,7 +44,7 @@ Since i was comparing prices across countries and years, i used the provided exc
   [GB power generation mix](https://github.com/dorischioma/Renewable-Energy-Analysis/blob/main/GB%20Power%20Generation%20Mix.png/) 
 
 
-### 2.	From a capture price perspective, which technology offers better potential between solar PV in GB and onshore wind in DE?**
+### 2.	From a capture price perspective, which technology offers better potential between solar PV in GB and onshore wind in DE?
 **Insight**  
 Between 2023 to 2050, Solar PV in GB shows an average capture price of €66.58, while Onshore Wind in DE averages €75.14.  However, a lower capture price indicates better market alignment, a more affordable or stable returns and can be more attractive from a commercial perspective. This suggests that Solar PV in GB will offer better long-term revenue potential, depending on factors like volume or policy.  
 [Capture price comparison by technology](https://github.com/dorischioma/Renewable-Energy-Analysis/blob/main/Avg%20Capture%20Price%20by%20technology%20screenshot.png/)
